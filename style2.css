@@ -1,0 +1,117 @@
+
+/*global*/
+body{
+background:url('../images/img9.jpg')  ;
+
+	 font: 15px/1.5   Sans-serif;
+	 padding: 0px;
+	 margin:0px;
+}
+.container{
+
+	 width:80%;
+	 overflow: hidden;
+	 margin:auto;
+}
+.clear{
+	clear: both;
+
+}
+
+/*header*/
+header{
+	 background:#35424a;
+  	 color:#ffffff;
+   	 padding-top:30px;
+  	 min-height:70px;
+  	 border-bottom: black 3px solid;
+	 opacity: 0.9
+	 margin:auto;
+}
+
+
+
+header a{
+	 text-decoration: none;
+	 text-transform: uppercase;
+	 font-size: 16px;
+	 color: white;
+}
+header a:hover{
+	 color: red;
+	 font-weight: bold;
+}
+header li{
+	 display: inline;
+	 float: left;
+	 padding: 0 20px 0 20px;
+}
+header .logo{
+	 float: left;
+}
+header .logo h1{
+	 margin: 0;
+}
+
+header #navbar{
+	float: right;
+} 
+
+header .highlight, header .current a{
+	color :rgb(255, 153, 255);
+	font-weight:bold;
+}
+
+/*article*/
+.body{
+	margin:30px;
+	border: 1px solid black;
+	  background: rgba(0, 0, 0, 0.5);
+}
+.article{
+	width:;
+    color:white;
+    border: 10px 10px 10px 10px
+}
+
+
+/*response area*/
+.response{
+	color: white;
+	margin:30px;
+	border: 1px solid black;
+	 background: rgba(0, 0, 0, 0.5);
+	 min-height: 100px;
+}
+.response .group  {
+	float: right;
+	margin: 30px;
+	color :rgb(255, 153, 255);
+}
+.response .group .c {
+		margin-bottom:50px;
+}
+.response .text{
+	
+	float: right;
+}
+.response .select{
+	float: right;
+	margin:30px;
+	color :rgb(255, 153, 255);
+}
+.response h1{
+	float:left;
+	margin-bottom: 30px;
+	color :rgb(255, 153, 255);
+
+}
+	/*footer*/
+footer{
+	padding: 20px;
+	margin-top:20px;
+    color:rgb(255, 153, 255);
+	background:#35424a;
+	text-align: center;
+}
+
